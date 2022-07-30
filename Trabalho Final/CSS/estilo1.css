@@ -1,0 +1,722 @@
+.main{
+    width: 1024px;
+    background-color: black;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+.barra_compra_venda{
+    text-align: center;
+    border-bottom: 5px solid orangered;
+}
+
+.barra_compra_venda ul li{
+    display: inline;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.barra_compra_venda ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.barra_compra_venda ul li:hover a{
+    color: orangered;
+}
+
+.barra_principal{
+    display: grid;
+    grid-template-columns: 200px 460px 110px 110px 120px;
+    grid-template-rows: 85px;
+    border-bottom: 10px solid orangered;
+}
+
+.titulo{
+    color: orangered;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5%;
+}
+.barra_principal a{
+    text-decoration: none;
+}
+
+.barra_principal form input{
+    padding: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    width: 350px;
+    margin-top: 2%;
+}
+
+.barra_principal button{
+    width: 50px;
+    height: 45px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+.barra_principal img{
+    height: 30px;
+    width: 30px;
+}
+
+.area_ajuda{
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.area_ajuda a{
+    text-decoration: none;
+    color: white;
+}
+
+.area_ajuda:hover a{
+    color: orangered;
+}
+
+.area_login_cadastro{
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+}
+
+.area_login_cadastro a{
+    text-decoration: none;
+    color: white;
+}
+
+.area_login_cadastro:hover a{
+    color: orangered;
+}
+
+.area_carrinho_compras{
+    background-color: grey;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 60%;
+}
+
+.area_carrinho_compras a img{
+    margin-top: 15%;
+}
+
+.area_carrinho_compras:hover{
+    background-color: orangered;
+}
+
+nav{
+    text-align: center;
+    margin-top: 1%;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li:hover a{
+    color: orangered;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 256px 256px 256px 256px;
+    grid-template-rows: 350px;
+}
+
+.banner1{
+    border: 2px solid orangered;
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-image: url(/IMG/back_promoção.jpg);
+    background-position: center;
+    background-size: 540px;
+    background-repeat: no-repeat;
+}
+
+.titulo_banner{
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin: 5px auto;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid orangered;
+    line-height: 15px;
+}
+
+.conteudo .banner1 button{
+    position: relative;
+    top: 250px;
+    left: 140px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+
+.conteudo .banner1 button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+}
+
+.conteudo .banner1 button:hover a{
+    color: orangered;
+}
+
+.banner2{
+    border: 2px solid orangered;
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-image: url(/IMG/back_acessorio.jpg);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.conteudo .banner2 button{
+    position: relative;
+    top: 250px;
+    left: 140px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+
+.conteudo .banner2 button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+}
+
+.conteudo .banner2 button:hover a{
+    color: orangered;
+}
+
+.banner3{
+    border: 2px solid orangered;
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-image: url(/IMG/back_lançamento.jpg);
+    background-position: center;
+    background-size: 550px;
+    background-repeat: no-repeat;
+}
+
+.conteudo .banner3 button{
+    position: relative;
+    top: 250px;
+    left: 140px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+
+.conteudo .banner3 button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+}
+
+.conteudo .banner3 button:hover a{
+    color: orangered;
+}
+
+.banner4{
+    border: 2px solid orangered;
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-image: url(/IMG/back_pcgamer.jpg);
+    background-position: center;
+    background-size: 650px;
+    background-repeat: no-repeat;
+}
+
+.conteudo .banner4 button{
+    position: relative;
+    top: 250px;
+    left: 140px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid orangered;
+}
+
+.conteudo .banner4 button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: white;
+}
+
+.conteudo .banner4 button:hover a{
+    color: orangered;
+}
+
+footer{
+    background-image: url(/IMG/back_footer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 249px;
+    background-position: bottom;
+}
+
+.metodos_de_pagamento{
+    position: relative;
+    top: 70px;
+    padding-left: 15px;
+}
+
+.direitos{
+    position: relative;
+    width: 500px;
+    top: 70px;
+    color: black;
+    padding: 15px;
+}
+
+.direitos a{
+    text-decoration: none;
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.direitos:hover a{
+    color: white;
+}
+
+.social_links{
+    display: grid;
+    grid-template-columns:  60px 60px 60px 60px;
+    grid-template-rows: 50px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.facebook{
+    background-image: url(/IMG/icon_face.png);
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.instagram{
+    background-image: url(/IMG/icon_insta.png);
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.twitter{
+    background-image: url(/IMG/icon_twiter.png);
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.youtube{
+    background-image: url(/IMG/icon_youtube.png);
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+.pag_login_cadastro{
+    display: grid;
+    grid-template-columns: 512px 512px;
+    grid-template-rows: 400px;
+}
+
+.login{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    width: 450px;
+    margin: 20px auto;
+}
+
+.titulo_login{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+.form_login{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows:  15px 45px 15px 50px 50px 50px;
+    padding-top: 50px;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form_login form input{
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.form_login a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+
+.form_login a:hover{
+    color: orangered;
+}
+
+.form_login button{
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.form_login button:hover{
+    background-color: orangered;
+}
+
+
+.cadastro{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    width: 450px;
+    margin: 20px auto;
+}
+
+.titulo_cadastro{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+.form_cadastro{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows:  30px 50px 15px 78px 50px;
+    padding-top: 50px;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.form_cadastro form input{
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.form_cadastro button{
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.form_cadastro button:hover{
+    background-color: orangered;
+}
+
+.form_cadastro .faca_cadastro{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.pag_carrinho{
+    text-align: center;
+    padding-top: 70px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding-bottom: 70px;
+    width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pag_carrinho a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid orangered;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pag_carrinho:hover a{
+    color: orangered;
+}
+
+.pag_ajuda{
+    width: 440px;
+    margin: 70px auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+.pag_ajuda_conteudo{
+    display: grid;
+    grid-template-columns: 100px 200px 140px;
+    grid-template-rows: 30px 30px 30px;
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .barra_principal{
+        display: grid;
+        grid-template-columns: 150px 270px 60px 60px 60px;
+        grid-template-rows: 85px;
+        border-bottom: 10px solid orangered;
+    }
+
+    .titulo{
+        color: orangered;
+        font-size: x-large;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .barra_principal form input{
+        padding: 10px;
+        font-weight: 300;
+        font-size: 14px;
+        border: 2px solid orangered;
+        border-radius: 10px;
+        width: 200px;
+        margin-top: 2%;
+    }
+
+    .barra_principal button{
+        width: 35px;
+        height: 35px;
+        background-color: orangered;
+        border-radius: 5px;
+    }
+
+    .barra_principal img{
+        height: 15px;
+        width: 15px;
+    }
+
+    .area_ajuda{
+        text-align: center;
+        line-height: 11px;
+        border-radius: 10px;
+        border: 2px solid orangered;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .area_login_cadastro{
+        text-align: center;
+        line-height: 9px;
+        border-radius: 10px;
+        border: 2px solid orangered;
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 5%;
+    }
+
+    .area_carrinho_compras{
+        background-color: grey;
+        text-align: center;
+        line-height: 10px;
+        border-radius: 10px;
+        border: 2px solid orangered;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .area_carrinho_compras a img{
+        margin-top: 35%;
+    }
+
+    nav ul li{
+        display: inline;
+        padding: 0 10px;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    .conteudo{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 350px;
+    }
+
+    footer{
+    background-image: url(/IMG/back_footer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 249px;
+    background-position: bottom;
+}
+
+    .direitos{
+        position: relative;
+        width: 300px;
+        top: 70px;
+        color: black;
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .social_links{
+        display: grid;
+        grid-template-columns:  60px 60px 60px 60px;
+        grid-template-rows: 50px;
+        padding-top: 30px;
+        padding-left: 20px;
+        position: relative;
+        top: 80px;
+    }
+
+    .facebook{
+        background-image: url(/IMG/icon_face.png);
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .instagram{
+        background-image: url(/IMG/icon_insta.png);
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .twitter{
+        background-image: url(/IMG/icon_twiter.png);
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .youtube{
+        background-image: url(/IMG/icon_youtube.png);
+        background-size: contain;
+        height: 30px;
+        width: 30px;
+    }
+
+    .pag_login_cadastro{
+        display: grid;
+        grid-template-columns: 512px;
+        grid-template-rows: 400px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    .conteudo{
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 350px;
+        padding-left: 120px;
+    }
+
+    nav ul li{
+
+        padding: 0 10px;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    .barra_principal{
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 60px;
+        border-bottom: 10px solid orangered;
+        padding-left: 120px;
+    }
+
+    .barra_principal form input{
+        display: none;
+    }
+    
+    .barra_principal button{
+        display: none;
+    }
+    
+    .barra_principal img{
+        display: none;
+    }
+
+    .area_carrinho_compras{
+        display: none;
+    }
+
+    .area_login_cadastro{
+        display: none   ;
+    }
+
+    .area_ajuda{
+        display: none;
+    }
+
+    .titulo{
+        color: orangered;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5%;
+    }
+}
+
